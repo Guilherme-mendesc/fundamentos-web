@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
           <a href="index.html">Home</a>
         </li>
@@ -21,11 +22,14 @@
         </ul>
 
 
-    <h1>
-        Entre em contato comigo
-    </h1>
+    <h1 class="center">  Entre em contato comigo </h1>
 
-    <form>
+    <div class="container mb-50">
+
+        <div>
+            <h2>Deixe uma mensagem</h2>
+
+            <form>
         <label for="nome">Nome:</label><br>
         <input type="text" id= "nome">
     </form>
@@ -38,25 +42,53 @@
     <br>
     <br>
     <form>
-        <label for="assunto">assunto:</label><br>
-        <textarea name="assunto" id="assunto" cols="30" rows="5"> </textarea>
+        <label for="assunto">Assunto:</label><br>
+        <textarea name="assunto" id="assunto" cols="70" rows="7"> </textarea>
         <br>
         <br>
         <button> enviar </button>
-
     </form>
 
-    <h2>Endereço:</h2>
+        </div>
 
-    <p>Praia do Arpoador, Posto 7</p>
-    <p>Rio de Janeiro- RJ</p>
+        <div class="ml-50">
+            <h2>Endereço:</h2>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.
-    4789374930467!2d-43.195210923920634!3d-22.98857647702786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-    1!3m3!1m2!1s0x9bd51b432fdc95%3A0x721eea5331e0fda1!2sPraia%20do%20Arpoador!5e0!3m2!1spt-BR!2sbr!4v1623868774641!5m2!1spt-BR!2sbr" 
-    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-</iframe>
+            <p>Praia do Arpoador, Posto 7</p>
+            <p>Rio de Janeiro- RJ</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.
+            4789374930467!2d-43.195210923920634!3d-22.98857647702786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0x9bd51b432fdc95%3A0x721eea5331e0fda1!2sPraia%20do%20Arpoador!5e0!3m2!1spt-BR!2sbr!4v1623868774641!5m2!1spt-BR!2sbr" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+        
+        </div>
+    </div>
 
+    <footer> 
+  
+        <div class="container">
+          <a href="https://www.linkedin.com/in/guilherme-mendes-a428481b0/" >
+          <img class="tm-social p-30" src="assets/img/linkedin.png" alt="logo do linkedin">
+        
+          <a href="https://www.instagram.com/guimendesp/"target="_blank">
+          <img class="tm-social p-30" src="assets/img/instagram.png" alt="logo do instagram">
+        </a>
+        </div>
+    
+       <p class="htexto"> Todos Direitos Reservados: Guilherme Mendes &copy
+    
+       </p>
+    
+    
+      </footer>
+
+
+
+    
+
+   
     
 </body>
 </html>

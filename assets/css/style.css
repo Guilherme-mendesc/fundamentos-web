@@ -1,0 +1,68 @@
+/*Estilos da página index.html*/
+.center{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.justify{
+    text-align: justify;
+
+}
+
+.htxt{
+    text-align: htxt;
+    font-size: 25;
+    font-family: verdana;
+}
+.htexto{
+    text-align: center;
+    font-size: 15;
+    font-family: verdana;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+
+
+}
+#menu li{
+    color: indigo;
+display: inline;
+padding: 15px;
+text-decoration: none;
+}
+
+#menu li a{
+
+text-decoration: none;
+color: cornsilk;
+font-size: 30px;
+
+}
+#menu li a:hover{
+    color:grey ;
+}
+
+.p-30{
+    padding: 30px;
+
+}
+.tm-social{
+width: 50px;
+height: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+
+}
+
+
+
+/*Estilos da página contato.html*/
+
+.ml-50{
+margin-left: 50px;
+
+}
